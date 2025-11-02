@@ -62,7 +62,7 @@ export default function Home() {
     // --- JSX Return (Task 2 & 4) ---
     return (
         <main className="container mx-auto p-4">
-            <h1 className="text-3xl font-bold mb-6 text-gray-800">Voter Management Dashboard</h1>
+            {/* <h1 className="text-3xl font-bold mb-6 text-gray-800">Voter Management Dashboard</h1> */}
             <VoterForm onSubmit={handleAdd} />
 
             {/* Display Loading/Error States */}
